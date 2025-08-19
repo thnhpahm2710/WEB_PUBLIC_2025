@@ -1,0 +1,30 @@
+.header{
+    opacity: 0.8;
+    display: flex;
+    background-color: #28344c;
+    position: sticky;   
+    justify-content: space-between;
+}
+
+.menu ul{
+    width: 1000px;
+    position: relative;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+} 
+
+.dropdown_1 ul{
+    display: none;
+    position: relative;
+    flex-direction: column;
+}
+
+.dropdown_1:hover > ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
